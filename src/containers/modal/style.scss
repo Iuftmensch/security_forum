@@ -1,0 +1,118 @@
+.thread-modal-body {
+    width: 95%;
+    margin-left: 2.5%;
+    font-family: "Noto Sans TC", sans-serif !important;
+    .btn {
+        background: linear-gradient(to right, #868f96 0%, #596164 100%) !important;
+        border: none !important;
+    }
+    input {
+        letter-spacing: 0px !important;
+    }
+    table,
+    th,
+    td {
+        border: 1px solid !important;
+        border-color: lightgrey !important;
+        padding: 10px;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+.thread-modal-close-btn {
+    margin-right: 5%;
+}
+
+.thread-modal-form-line2 {
+    padding-top: 1%;
+    margin-bottom: 1%;
+}
+
+.thread-modal-timer {
+    text-align: center;
+    color: gray;
+}
+
+.editor {
+    p {
+        display: block !important;
+    }
+    .CodeMirror {
+        height: 68vh !important;
+    }
+}
+
+.login-modal {
+    background-color: #464646 !important;
+    font-family: "Cousine", monospace;
+    letter-spacing: -1.5px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    .container {
+        padding-top: 29vh;
+        text-align: center;
+    }
+}
+
+.firebaseui-idp-button {
+    background-color: #464646 !important;
+    font-family: "Cousine", monospace !important;
+    letter-spacing: -1.5px !important;
+    padding-right: 0px !important;
+    padding-left: 10px !important;
+}
+
+.firebaseui-idp-text {
+    color: white !important;
+    font-size: 14.5px !important;
+}
+
+.subscibe-modal {
+    background-color: #464646 !important;
+    font-family: "Cousine", monospace;
+    letter-spacing: -1.5px;
+    color: white;
+    display: flex;
+    label {
+        color: #464646;
+        margin-top: -5px !important;
+    }
+    input {
+        background-color: #a9a9a9;
+        border-color: #a9a9a9;
+        height: 45px !important;
+        &:hover,
+        &:focus {
+            box-shadow: none;
+            outline: none !important;
+            background-color: whitesmoke;
+            border-color: whitesmoke;
+        }
+    }
+    .container {
+        text-align: center;
+        .row {
+            padding-top: 40px;
+            align-items: center;
+        }
+    }
+    .btn{
+        padding: 9px;
+        background-color: transparent;
+        border-color: whitesmoke;
+        color: whitesmoke;
+        &:hover,
+        &:focus{
+            background: linear-gradient(to right, #868f96 0%, #596164 100%) !important;
+            border:none;
+            color: whitesmoke;
+        }
+    }
+}
+
+.subs-status{
+    text-align: left;
+    padding-top: 2px !important;
+}

@@ -1,0 +1,290 @@
+.thread-list {
+    letter-spacing: -1.5px;
+    // font-family: 'Noto Sans TC', sans-serif;
+    font-family: "Cousine", monospace;
+    .container {
+        max-width: 80% !important;
+    }
+}
+
+.thread-list-header {
+    text-align: left;
+    padding-top: 20px;
+}
+
+
+.thread-list-sort {
+    text-align: right;
+    button {
+        font-size: 13px;
+        font-weight: bold;
+        background-color: transparent;
+        color: #616161;
+        margin-right: 0px;
+        margin-top: 2px;
+        border-color: #616161;
+        &:focus,&:hover{
+            background-color: #616161 !important;
+            border-color: #616161 !important;
+        }
+    }
+}
+
+.btn.active{
+    background-color: #616161 !important;
+    border-color: #616161 !important;
+}
+
+.thread-list-item {
+    display: flex;
+    text-align: left;
+}
+
+.list-group-item {
+    margin-left: 0px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    .container {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        max-width: 100% !important;
+        background-color: #FAFAFA;
+        &:hover {
+            background-color: rgb(226, 217, 217);
+        }
+    }
+}
+
+.thread-list-title {
+    height: 30px;
+    font-weight: bold;
+}
+
+.thread-link {
+    text-decoration: none;
+    color: #464646;
+    font-size: 18px;
+}
+
+.thread-list-detail {
+    height: 30px;
+    display: flex;
+}
+
+.thread-detail-creator {
+    color: #464646;
+    font-weight: bold;
+}
+
+.thread-detail-info {
+    float: left;
+    margin-left: 10px;
+    padding-top: 3px;
+    color: #9c9b9c;
+}
+
+.thread-list-tag {
+    justify-content: center;
+    padding-left: 5px;
+    height: 30px;
+    color: #9c9b9c;
+}
+
+.badge {
+    letter-spacing: 0px;
+    font-weight: lighter !important;
+}
+
+// .thread-list-contrib{
+//     padding-left: 0px;
+// }
+
+// .thread-list-search{
+//     padding-left: 0px;
+//     padding-right: 0px;
+// }
+
+.thread-list-clear {
+    Button {
+        background-color: transparent;
+        border: none;
+        color: gray;
+        &:hover {
+            background-color: transparent;
+            color: #315be6;
+            border: none;
+        }
+    }
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.dot {
+    height: 3px;
+    width: 3px;
+    background-color: #bbb;
+    border-radius: 50%;
+    margin-bottom: 3.5px;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.thread-list-title {
+    height: 30px;
+    font-weight: bold;
+}
+.thread-short{
+    float: left;
+    font-weight: bold;
+}
+.thread-detail-info {
+    float: left;
+    margin-left: 10px;
+    padding-top: 3px;
+    color: #9c9b9c;
+}
+.thread-detail-creator {
+    color: #464646;
+    font-weight: bold;
+}
+.thread-status{
+    float: right;
+    color: #9c9b9c;
+}
+.p{
+    font-size: 18px;
+}
+
+@media screen and(min-width:280px) and(max-width:650px) {
+    .container{
+        font-size: 12px;
+        button {
+            font-size: 12px;
+        }
+    }
+    .p{
+        font-size: 12px;
+    }
+    .page-link{
+        font-size: 12px;
+        height: 25px;
+    }
+    
+    .thread-link {
+        text-decoration: none;
+        color: #464646;
+        font-size: 12px;
+    }
+    .btn-group{
+        width: 260px;
+        height: 40px;
+    }
+    .input-group-text{
+        width: 80px;
+        height: 40px;
+    }
+    
+    .thread-detail-info {
+        float: left;
+        margin-left: 10px;
+        color: #9c9b9c;
+        font-size: 10px;
+        width: auto;
+        padding-top: 0px;
+    }
+    .thread-short{
+        float: left;
+        font-weight: bold;
+        font-size: 10px;
+        width: auto;
+    }
+    .thread-detail-creator {
+        color: #464646;
+        font-weight: bold;
+        font-size: 10px;
+        width: auto;
+    }
+    .thread-status{
+        float: right;
+        color: #9c9b9c;
+        font-size: 10px;
+        width: auto;
+    }
+    .thread-list-detail {
+        height: 30px;
+        display: flex;
+        width: 300px;
+        padding-top: 5px;
+    }
+    .post{
+        font-size: 12px;
+    }
+    .page{
+        font-size: 12px;
+    }
+}
+
+@media screen and(min-width:650px) and(max-width:850px) {
+    .container{
+        font-size: 16px;
+        button {
+            font-size: 12px;
+        }
+    }
+    .p{
+        font-size: 16px;
+    }
+    .page-link{
+        font-size: 12px;
+    }
+    .thread-link {
+        text-decoration: none;
+        color: #464646;
+        font-size: 16px;
+    }
+    .btn-group{
+        width: 260px;
+        height: 40px;
+    }
+    .input-group-text{
+        width: 80px;
+        height: 40px;
+    }
+    .thread-detail-info {
+        float: left;
+        margin-left: 10px;
+        color: #9c9b9c;
+        font-size: 10px;
+        width: auto;
+        padding-top: 0px;
+    }
+    .thread-short{
+        float: left;
+        font-weight: bold;
+        font-size: 10px;
+        width: auto;
+    }
+    .thread-detail-creator {
+        color: #464646;
+        font-weight: bold;
+        font-size: 10px;
+        width: auto;
+    }
+    .thread-status{
+        float: right;
+        color: #9c9b9c;
+        font-size: 10px;
+        width: auto;
+    }
+    .thread-list-detail {
+        height: 30px;
+        display: flex;
+        width: 300px;
+        padding-top: 5px;
+    }
+    .post{
+        font-size: 16px;
+    }
+    .page{
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,81 @@
+.user-detail {
+    color: #464646;
+    font-family: "Cousine", monospace;
+    letter-spacing: -1.5px ;
+    a{
+        color: #565656;
+        font-weight: bold;
+    }
+    .badge{
+        font-weight: bold !important;
+    }
+}
+
+.user-detail-container {
+    max-width: 80% !important;
+    padding-left: 10%;
+}
+
+.user-detail-info {
+    padding: 10px;
+    margin-top: 25px;
+    border-radius: 8px;
+    text-align: left;
+    Button {
+        cursor: default !important;
+        padding-bottom: 1em;
+        &:hover,
+        &:focus {
+            border-color: white;
+        }
+    }
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.user-detail-threads {
+    background-color: white;
+    margin-top: 25px;
+    border-radius: 8px;
+    text-align: left;
+    padding: 2%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.user-detail-table {
+    background-color: white;
+    margin-top: 25px;
+    border-radius: 8px;
+    text-align: left;
+    padding: 2%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.hr {
+    padding: 10px;
+}
+
+.user-detail-tags {
+    padding-left: 5%;
+}
+
+.tagdiv {
+    display: flex;
+    .tagdiv-left {
+        float: left;
+        width: 40%;
+    }
+    .tagdiv-right {
+        width: 55%;
+        float: right;
+        text-align: right;
+    }
+}
+
+.react-calendar-heatmap-month-label{
+    font-size: 6px !important;
+    letter-spacing: 0px !important;
+}
+
+.user-detail-title{
+    font-size: 25px;
+}

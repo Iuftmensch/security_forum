@@ -1,0 +1,72 @@
+
+.tab-container {
+    padding-top: 40px;
+    max-width: 80% !important;
+    text-align: left;
+    padding-left: 0px !important;
+    letter-spacing: -1.5px !important;
+    font-family: "Cousine", monospace !important;
+    a{
+        color: #464644 !important;
+    }
+}
+
+.nav-link.active {
+    font-weight: bold !important;
+}
+
+.nav-item{
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
+.dropdown-item {
+    &:hover,
+    &:focus {
+        text-decoration: underline;
+        background-color: transparent !important;
+        color: black !important;
+    }
+}
+
+.dropdown {
+    .btn {
+        background-color: transparent;
+        color: black;
+        border: none;
+        padding-left: 0px;
+        &:hover,
+        &:focus {
+            text-decoration: underline;
+            background-color: transparent !important;
+            color: black !important;
+        }
+    }
+}
+
+.account-question {
+    cursor: default !important;
+    padding-top: 0 !important;
+    &:hover,
+    &:focus {
+        border-color: white;
+    }
+}
+
+.mb-3 {
+    div {
+        padding-top: 6px;
+    }
+}
+
+.update-btn{
+    background-color: transparent !important;
+    color: #464646 !important;
+    border-color: #464646 !important;
+    &:hover{
+        background: linear-gradient(to right, #868f96 0%, #596164 100%) !important;
+        border: none !important;
+        color: white !important;
+    }
+}

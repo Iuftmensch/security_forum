@@ -1,0 +1,16 @@
+export const API_URL = process.env.REACT_APP_blueIntelService;
+export const USER_URL = API_URL + 'user/';
+export const USER_REGISTER_URL = USER_URL + 'register/';
+export const USER_LOGIN_URL = USER_URL + 'login/';
+export const USER_LOGOUT_URL = USER_URL + 'logout/';
+export const THREAD_URL = API_URL + 'thread/';
+export const SUBSCRIPTION_URL = API_URL + 'subscribe/';
+export const THREAD_UPDATE_URL = '/update/';
+export const VOTE_URL =  'vote/';
+export const TAG_URL = THREAD_URL + 'tag/';
+export const THREAD_CREATE_URL = THREAD_URL + 'create/';
+export const USER_UPDATE_URL = '/update/';
+export const POST_URL = API_URL + 'post/';
+export const POST_CREATE_URL = POST_URL + 'create/';
+export const POST_EDIT_URL = '/edit/';
+export const POST_DELETE_URL = '/delete/';

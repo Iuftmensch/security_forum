@@ -1,0 +1,214 @@
+.thread-detail {
+    // min-height: 100vh;
+    font-family: "Cousine", monospace;
+    letter-spacing: -1.5px;
+    color: #464646;
+    a {
+        color: #464646 !important;
+        &:hover {
+            font-weight: bold;
+        }
+    }
+    table,
+    th,
+    td {
+        border: 1px solid !important;
+        border-color: lightgrey !important;
+        padding: 10px;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+.thread-detail-container {
+    max-width: 80% !important;
+    padding-left: 10%;
+    border-style: dashed;
+    border-color: #cfcfcf;
+    border-width: 2px;
+    margin-top: 20px;
+}
+
+.thread-detail-md {
+    text-align: left;
+    p {
+        display: block !important;
+    }
+}
+
+.thread-detail-header {
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-bottom: 10px;
+    div {
+        padding-left: 10px;
+        color: grey;
+        font-size: 18px;
+        border: none;
+        display: inline-flex;
+        align-items: center;
+    }
+}
+
+.thread-detail-action {
+    button {
+        width: 38px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 5px;
+        border: none;
+        background-color: #565656;
+
+        &:hover {
+            background-color: #cfcfcf;
+        }
+    }
+}
+
+.button-selected {
+    background-color: #cfcfcf !important;
+}
+
+.thread-detail-info {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-size: 15px;
+    color: #c4c0c0;
+}
+
+.author {
+    color: #616161;
+    margin-left: -10px;
+    font-weight: bold;
+}
+
+.thread-detail-tags {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+textarea {
+    min-height: 10vh !important; // adjust this as you see fit
+    height: unset; // so the height of the textarea isn't overruled by something else
+    letter-spacing: -1.5px;
+}
+
+.post-sort-btn {
+    button {
+        font-size: 13px;
+        font-weight: bold;
+        background-color: transparent;
+        color: #c3c7c9;
+        margin-right: 0px;
+        margin-top: 2px;
+        padding-right: 0px;
+        border: none;
+        &:focus,
+        &:hover {
+            background-color: transparent !important;
+            border: none !important;
+            color: #464646 !important;
+            font-weight: bold !important;
+        }
+    }
+}
+
+.preview-btn {
+    background-color: #eceff1 !important;
+    border: none !important;
+    margin-right: 10px !important;
+    color: #464646 !important;
+    font-weight: bold !important;
+}
+
+.post-btn {
+    background: linear-gradient(to right, #868f96 0%, #596164 100%) !important;
+    border: none !important;
+    color: whitesmoke;
+}
+
+.thread-detail-list {
+    .container {
+        max-width: 100% !important;
+        background-color: transparent !important;
+        text-align: left;
+        padding-left: 0px;
+    }
+}
+
+.post-action {
+    button {
+        background: transparent;
+        border: none;
+        color: #C0C0C0;
+        letter-spacing: -1.5px;
+        &:focus,
+        &:hover,
+        &:active {
+            background: transparent !important;
+            border: none !important;
+            color: #696969;
+            svg {
+                fill: #696969 !important;
+            }
+        }
+    }
+    .button-selected{
+        background: transparent !important;
+        border: none !important;
+        color: #696969;
+        svg {
+            fill: #696969 !important;
+        }
+    }
+}
+
+.preview-div{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d3d3d3 !important;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 6px;
+    border-radius: 5px;
+}
+
+.post-detail{
+    color: #C0C0C0;
+    a{
+        text-decoration: none;
+    }
+}
+
+
+@media screen and(min-width:280px) and(max-width:650px) {
+    .thread-detail-header {
+        padding-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        padding-bottom: 10px;
+        div {
+            padding-left: 10px;
+            color: grey;
+            font-size: 12px;
+            border: none;
+            display: inline-flex;
+            align-items: center;
+        }
+    }
+    #body{
+        font-size:12px;
+    }
+}
